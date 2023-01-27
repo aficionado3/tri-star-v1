@@ -1,0 +1,38 @@
+#heading {
+    color: khaki;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:lighter;
+    font-size: large;
+    text-align: center;
+    text-shadow: 100px;
+    border-color: rgb(255, 123, 0);
+}
+body {
+    background-image: url('background1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#header {
+    color: white;
+    padding: 10px;
+}
+.grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    text-align: center;
+}
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: beige;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+a:hover {
+    color: rgb(255, 174, 0);
+}
+#title {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
